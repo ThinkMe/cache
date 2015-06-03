@@ -1,0 +1,24 @@
+{
+    "name": "thinkme/cache",
+    "description": "Laravel cache on aliyun ocs sasl memcached",
+    "keywords": ["laravel", "aliyun", "saslMemcached", "ocs"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "test",
+            "email": "i@yea.im"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "5.0.x",
+        "illuminate/pagination": "5.0.x",
+        "illuminate/routing": "5.0.x"
+    },
+    "autoload": {
+        "psr-0": {
+            "ThinkMe\\Cache": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
